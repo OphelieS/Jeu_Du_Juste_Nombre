@@ -32,7 +32,7 @@ def play():
                 bravo = f"Bravo tu as gagné en {nb_tours}, Si tu veux de nouveau essayer, tu peux lancer le programme à nouveau ! Bonne chance !"
                 print(bravo)
                 return 0
-            tours = tours + 1
+            nb_tours = nb_tours + 1
     else:
         print("*** Valeur incorrecte ***")
         play()
